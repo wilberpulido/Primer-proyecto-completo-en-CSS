@@ -1,0 +1,134 @@
+html {
+   font-family: Helvetica, Arial, sans-serif; 
+   font-size: 22px;
+   color: seashell;
+   background-color: black;
+   /* opacity: 0.9; */
+   /* display: flex;
+   align-content: center;
+   align-items: center; */
+}
+nav{
+    height: 69px;
+    border-bottom: 1px solid seashell;
+    position: fixed;
+    background-color: black;
+    z-index: 10;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+nav li{
+    margin-right: 70px;
+}
+
+ #items{
+    float: right;
+   }   
+   
+ .navegacion {
+display: inline-block;
+ }
+
+.logo{
+    height: 50px;
+    margin-left: 10px;
+}
+
+nav li a {
+    color: seashell;
+}
+
+main {
+position: relative;
+top:69px;
+}
+
+#mission{
+height: 700px;
+width: 1200px;
+margin: 0px auto;
+background-image: url('https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg');
+background-size: cover;
+display: flex;
+align-items: center;
+}
+#mission h4,
+#mission h2 {
+  text-align: center;
+}
+
+#subtitulo{
+    background-color: black;
+    width: 100%;
+}
+
+#featured-Tea{
+    position: relative;
+    width: 1000px;
+    height: auto;
+    margin:0px auto;
+    background-color: black;
+}
+ 
+#featured-Tea h1,
+#featured-Tea h2{
+    text-align: center;
+}
+
+figure img{
+    width: 300px;
+    height: 200px;
+    margin-bottom: 10px;
+}
+
+.box{
+    display:inline-block;
+    margin: 0px 11px;
+}
+
+#featured-Tea figure figcaption {
+margin-bottom: 20px;
+}
+
+#Locations{
+height: 500px;
+width: 1200px;
+background-image: url('https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg');
+background-size: cover;
+margin:0px auto;
+display: flex;
+padding: 50px 0px;
+}
+
+#Locations h1 {
+    text-align: center;
+    position: relative;
+    left: 44%;
+}
+
+.local {
+width: 300px;
+height:300px;
+text-align: center;
+position: relative;
+top: 60px;
+right: 60px;
+background-color:black;
+display: inline-block;
+margin: 15px 20px;
+opacity: 1;
+ }
+
+ footer #datos{
+     width: 1200px;
+     height: 200px;
+     text-align: center;
+     background-color: black;
+     margin:0px auto; 
+ }
+
+ footer #copy {
+     text-align: left;
+     margin-left: 20px;
+ }
