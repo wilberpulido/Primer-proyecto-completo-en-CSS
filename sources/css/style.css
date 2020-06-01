@@ -67,7 +67,7 @@ align-items: center;
     position: relative;
     width: 1000px;
     height: auto;
-    margin:0px auto;
+    margin:50px auto;
     background-color: black;
 }
  
@@ -87,8 +87,14 @@ figure img{
     margin: 0px 11px;
 }
 
+.row2{
+    position: relative;
+    left: 150px;
+}
+
 #featured-Tea figure figcaption {
 margin-bottom: 20px;
+text-align: center;
 }
 
 #Locations{
